@@ -3,6 +3,7 @@
 # Aloha! Surf's up, brah!
 
 ![diamond](Images/diamond_head.png)
+*Image taken by Heather Mott*
 
 ## Climate Analysis and Exploration
 
