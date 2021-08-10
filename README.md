@@ -2,6 +2,8 @@
 
 # Aloha! Surf's up, brah!
 
+![diamond](Images/diamond_head.png)
+
 ## Climate Analysis and Exploration
 
 Prior to planning my trip to boogie, SUP, and rip in Hawaii, I utilized Python and SQLAlchemy to do some gnarly climate analysis and data exploration using SQLAlchemy ORM queries, Pandas, and Matplotlib.
