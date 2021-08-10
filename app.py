@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
@@ -17,3 +17,26 @@ def welcome():
 def precipitation():
     precip_data = session.query(Measurement.date, func.avg(Measurement.prcp)).filter(Measurement.date >= twelve_months).group_by(Measurement.date).all()
     return jsonify(precip_data)
+
+@app.route("/api/v1.0/stations")
+def stations():
+    active_stations = session.query(Station.station, Station.name).all()
+    return jsonify(active_stations)
+
+@app.route("/api/v1.0/tobs")
+def tobs():
+    temp_data = session.query(Measurement.date, Measurement.station, Measurement.tobs).filter(Measurement.date >= twelve_months).all()
+    return jsonify(temp_data)
+
+@app.route("/api/v1.0/<start>")
+def startDateOnly(date):
+    day_results = session.query(func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)).filter(Measurement.date >= date).all()
+    return jsonify(day_results)
+
+@app.route("/api/v1.0/<start>/<end>")
+def startDateEndDate(start,end):
+    multiple_days = session.query(func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)).filter(Measurement.date >= start).filter(Measurement.date <= end).all()
+    return jsonify(multiple_days)
+
+if __name__ == "__main__":
+    app.run(debug=True)
