@@ -39,15 +39,15 @@ File: [app.py](https://github.com/HeathMo/sqlalchemy_challenge/blob/main/app.py)
 
 After munching on some Loco Moco and Shave Ice, I recharged and paddled through a little chop into the Bonus portions.  I completed Bonus 1 and the majority of Bonus 2 for some extra points in the surf competition.  But then dinged a skeg and had to paddle back in to call it a day rather than be a buoy.
 
-File: [Bonus 1 COMPLETE](https://github.com/HeathMo/sqlalchemy_challenge/blob/main/temp_analysis_bonus_1_starter.ipynb)
+File: [Bonus 1 COMPLETE](https://github.com/HeathMo/sqlalchemy_challenge/blob/main/temp_analysis_bonus_1_starter.ipynb)<br>
 File: [Bonus 2 PARTIAL COMPLETION](https://github.com/HeathMo/sqlalchemy_challenge/blob/main/temp_analysis_bonus_2_starter.ipynb)
 
 Mahalo, Heather
 
-![shaka](Images/shaka.png)
-*The Shaka - familar greeting in Hawaii that means any friendly message along the lines of "Right on", "Thank you", "Life is good", etc.*
+![shaka](Images/shaka.png)<br>
+*The Shaka - familar greeting in Hawaii that means any friendly message along the lines of "Right on", "Thank you", "Life is good", etc.*<br>
 *Source: The Internets and experience on the islands*
 
-![aloha](Images/Aloha.png)
+![aloha](Images/Aloha.png)<br>
 *Selfie taken on Waikiki*
 
