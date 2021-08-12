@@ -4,7 +4,7 @@
 # Some great pipe - surf's up, brah!
 
 ![diamond](Images/diamond_head.png)
-*Image taken by Heather Mott*
+*Image taken by Heather Mott on Diamond Head, Honolulu, HI*
 
 ## Climate Analysis and Exploration
 
